@@ -52,4 +52,16 @@ dependencies {
     implementation "androidx.paging:paging-runtime:$paging_version"
     // optional - RxJava support
     implementation "androidx.paging:paging-rxjava2:$paging_version"
+
+    //other lib
+    annotationProcessor 'org.projectlombok:lombok:1.18.2'
+    compileOnly "org.projectlombok:lombok:1.18.2"
+
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+
+    //RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
 }
