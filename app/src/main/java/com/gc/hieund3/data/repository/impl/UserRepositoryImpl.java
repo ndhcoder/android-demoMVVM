@@ -10,9 +10,7 @@ import com.gc.hieund3.data.repository.UserRepository;
 import java.util.List;
 
 import androidx.lifecycle.LiveData;
-import io.reactivex.Completable;
 import io.reactivex.Observable;
-import io.reactivex.Scheduler;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
