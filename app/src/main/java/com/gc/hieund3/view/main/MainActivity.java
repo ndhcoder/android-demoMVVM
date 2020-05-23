@@ -48,7 +48,8 @@ public class MainActivity extends BaseActivity<MainViewModel> {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mCompositeDisposable = new CompositeDisposable();
+        int x = 2;
+        mCompositeDisposable = new CompositeDisposable(); // this is a comment
         mViewModel.getListUser().observe(this, this::updateListUser);
         mViewModel.getUserDetail().observe(this, this::showUserDetail);
     }
